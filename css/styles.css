@@ -1,0 +1,336 @@
+
+/* Common Section Start */
+
+body {
+    margin: 0;
+    font-family: 'Merriweather', serif;
+}
+
+hr {
+    border-style: none;
+    border-top-style: inset;
+    border-width: 5px;
+    width: 5%;
+    margin: 0 auto;
+    border-color: #f7c76f;
+    margin-bottom: 15px;
+}
+
+h1 {
+    width: 20%;
+    font-size: 3em;
+    margin: 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+p {
+    line-height: 2;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.link {
+    color: #626567;
+    background-color: #f4f6f7;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    transition: transform .2s; /* Animation */
+    border: none;
+    border-radius: 10px;
+}
+
+    .link:hover {
+        color: #ffffff;
+        background-color: rgb(33, 33, 189);
+        text-decoration: underline;
+        text-decoration-color: forestgreen;
+        transform: scale(1.05);
+    }
+
+/* Common Section End */
+
+/* Header Section Start */
+
+.header {
+    text-align: center;
+    background-color: #E4F9F5;
+    padding: 10px;
+}
+
+.cloud1 {
+    width: 10%;
+    position: relative;
+}
+
+.cloud2 {
+    width: 10%;
+    position: relative;
+}
+
+.clouds {
+    width: 10%;
+    position: relative;
+}
+
+.profile {
+    text-align: center;
+   
+}
+
+.profile-image {
+    border-radius: 50%;
+}
+
+.software {
+    text-decoration: underline;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+/* Header Section End */
+
+/* Details Section Start */
+
+.details {
+    background-color: #f4f6f7;
+}
+
+    .details h4 {
+        color: #27ae60;
+    }
+
+.experience {
+    margin: 0px 20px 0 60px;
+    padding-top: 5px;
+    width: 90%;
+    text-align: left;
+}
+
+.education {
+    margin: 0px 0 0 60px;
+    text-align: left;
+}
+
+.skills {
+    margin: 0 0 0 60px;
+    text-align: left;
+}
+
+.skills-table {
+    font-size: 1em;
+}
+
+.experience-title {
+    text-decoration: underline;
+}
+
+.location {
+    margin-left: 10px;
+    font-size: 1.5em;
+    font-family: 'Sacramento', cursive;
+}
+
+/* Details Section End */
+
+/* Footer */
+
+.footer {
+    color: forestgreen;
+    background-color: #E4F9F5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.name {
+    font-size: 1.5em;
+    font-family: 'Sacramento', cursive;
+}
+
+/* ##Device = Desktops ##Screen = 1281px to higher resolution desktops */
+@media (min-width: 1281px) {
+    .header {
+        /*background-color: black;*/
+    }
+
+    .cloud2 {
+        top: 40px;
+    }
+
+    .clouds {
+        top: 90px;
+    }
+
+    .profile {
+        margin-top: 50px;
+        padding: 5px 0;
+    }
+
+    .link {
+        bottom: 50px;
+        left: 70px;
+        margin: 0 15px;
+        padding: 5px 10px;
+    }
+
+    .footer {
+        padding: 20px 0;
+    }
+}
+
+/* ##Device = Laptops, Desktops ##Screen = B/w 1025px to 1280px */
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .header {
+        /*background-color: blue;*/
+    }
+
+    .cloud2 {
+        top: 40px;
+    }
+
+    .clouds {
+        top: 90px;
+    }
+
+    .profile {
+        margin-top: 50px;
+        padding: 5px 0;
+    }
+
+    .link {
+        bottom: 50px;
+        left: 70px;
+        margin: 0 15px;
+        padding: 5px 10px;
+    }
+
+    .experience {
+        margin: 0px 20px 0 60px;
+        width: 90%;
+    }
+
+    .footer {
+        padding: 20px 0;
+    }
+}
+
+/* ##Device = Tablets, Ipads (portrait) ##Screen = B/w 768px to 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header {
+        /*background-color: red;*/
+    }
+
+    .cloud2 {
+        top: 40px;
+    }
+
+    .clouds {
+        top: 90px;
+    }
+
+    .profile {
+        margin-top: 50px;
+        padding: 5px 0;
+    }
+
+    .link {
+        bottom: 50px;
+        left: 70px;
+        margin: 0 15px;
+        padding: 5px 10px;
+    }
+
+    .experience {
+        margin: 0px 20px 0 60px;
+        width: 90%;
+    }
+
+    .footer {
+        padding: 20px 0;
+    }
+}
+
+/* ##Device = Tablets, Ipads (landscape) ##Screen = B/w 768px to 1024px */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .header {
+        /*background-color: red;*/
+    }
+
+    .cloud2 {
+        top: 40px;
+    }
+
+    .clouds {
+        top: 90px;
+    }
+
+    .profile {
+        margin-top: 50px;
+        padding: 5px 0;
+    }
+
+    .link {
+        bottom: 50px;
+        left: 70px;
+        margin: 0 15px;
+        padding: 5px 10px;
+    }
+
+    .experience {
+        margin: 0px 20px 0 60px;
+        width: 90%;
+    }
+
+    .footer {
+        padding: 20px 0;
+    }
+}
+
+/* ##Device = Low Resolution Tablets, Mobiles (Landscape) ##Screen = B/w 481px to 767px */
+@media (min-width: 481px) and (max-width: 767px) {
+    .header {
+        padding: 0;
+        /*background-color: green;*/
+    }
+
+    .link {
+        position: static;
+        margin: 0 3px;
+        padding: 3px;
+        font-size: 0.9em;
+    }
+
+    .clouds {
+        top: 20px;
+    }
+
+    .profile {
+      margin-top: 15px;
+    }
+
+    .experience {
+        margin: 0px 20px 0 20px;
+        width: 80%;
+    }
+
+    .footer {
+        padding: 0;
+    }
+}
+
+/* ##Device = Most of the Smartphones Mobiles (Portrait) ##Screen = B/w 320px to 479px */
+@media (min-width: 320px) and (max-width: 480px) {
+    .header {
+        /*background-color: purple;*/
+    }
+}
