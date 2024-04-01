@@ -9,7 +9,7 @@ body {
 hr {
     border-style: none;
     border-top-style: inset;
-    border-width: 3px;
+    border-width: 2px;
     width: 30%;
     margin: 0 auto;
     border-color: #2f6c8a;
@@ -117,28 +117,28 @@ ul {
     margin: 0px 0 0 60px;
     padding-top: 5px;
     width: 90%;
-    text-align: center;
+    text-align: left;
 }
 
 .education {
     margin: 0px 0 0 60px;
     padding-top: 5px;
     width: 90%;
-    text-align: center;
+    text-align: left;
 }
 
 .skills {
     margin: 0px 0 0 60px;
     padding-top: 5px;
     width: 90%;
-    text-align: center;
+    text-align: left;
 }
 
 .skills-table {
     font-size: 1em;
-    margin-right: auto;
+    /*margin-right: auto;
     margin-left: auto;
-    text-align: center;
+    text-align: center;*/
 }
 
 .experience-title {
