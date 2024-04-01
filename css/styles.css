@@ -105,7 +105,11 @@ ul {
     background-color: #f4f6f7;
 }
 
-    .details h4 {
+    .details h3 {
+        color: #1A4960;
+    }
+
+ .details h4 {
         color: #1A4960;
     }
 
@@ -113,7 +117,7 @@ ul {
     margin: 0px 20px 0 60px;
     padding-top: 5px;
     width: 90%;
-    text-align: left;
+    text-align: center;
 }
 
 .education {
