@@ -129,6 +129,8 @@ ul {
 
 .skills {
     margin: 0px 0 0 60px;
+    padding-top: 5px;
+    width: 90%;
     text-align: center;
 }
 
@@ -153,7 +155,7 @@ ul {
 
 .footer {
     color: #23607E;
-    background-color: #E4F9F5;
+    background-color: #CEE0DD;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     margin-top: 10px;
