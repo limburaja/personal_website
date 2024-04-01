@@ -136,7 +136,9 @@ ul {
 
 .skills-table {
     font-size: 1em;
-    position: center;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
 }
 
 .experience-title {
