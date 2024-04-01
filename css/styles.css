@@ -10,9 +10,9 @@ hr {
     border-style: none;
     border-top-style: inset;
     border-width: 5px;
-    width: 5%;
+    width: 50%;
     margin: 0 auto;
-    border-color: #f7c76f;
+    border-color: ##1A4960;
     margin-bottom: 15px;
 }
 
@@ -106,11 +106,11 @@ ul {
 }
 
     .details h3 {
-        color: #1A4960;
+        color: #23607E;
     }
 
  .details h4 {
-        color: #1A4960;
+        color: #23607E;
     }
 
 .experience {
@@ -143,8 +143,8 @@ ul {
 
 .location {
     margin-left: 10px;
-    font-size: 1.2em;
-    font-family: 'Serif';
+    font-size: 1.3em;
+    font-family: sans-serif;
 }
 
 /* Details Section End */
@@ -152,7 +152,7 @@ ul {
 /* Footer */
 
 .footer {
-    color: #1A4960;
+    color: #23607E;
     background-color: #E4F9F5;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
