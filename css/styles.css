@@ -122,6 +122,8 @@ ul {
 
 .education {
     margin: 0px 0 0 60px;
+    padding-top: 5px;
+    width: 90%;
     text-align: left;
 }
 
@@ -150,7 +152,7 @@ ul {
 /* Footer */
 
 .footer {
-    color: forestgreen;
+    color: #1A4960;
     background-color: #E4F9F5;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
