@@ -143,14 +143,14 @@ ul {
 
 .experience-title {
     text-decoration: underline;
-    font-size: 1.5em
+    font-size: 1.5em;
     color: #23607E;
 }
 
 .location {
     margin-left: 10px;
     font-size: 1.3em;
-    font-family: sans-serif;
+    color: #23607E;
 }
 
 /* Details Section End */
