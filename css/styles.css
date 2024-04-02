@@ -153,6 +153,13 @@ ul {
     color: #23607E;
 }
 
+.reference {
+    margin: 0px 0 0 60px;
+    padding-top: 5px;
+    width: 90%;
+    text-align: left;
+}
+
 /* Details Section End */
 
 /* Footer */
