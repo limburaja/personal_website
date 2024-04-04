@@ -147,6 +147,8 @@ ul {
     margin-right: auto;
     margin-left: auto;
     text-align: left;
+    border-collapse: separate; /* This is important for proper spacing */
+    border-spacing: 10px 15px; 
 }
 
 .experience-title {
@@ -174,7 +176,7 @@ ul {
     margin-left: auto;
     text-align: left;
     border-collapse: separate; /* This is important for proper spacing */
-    border-spacing: auto 5px; 
+    border-spacing: 10px 15px; 
 }
 
 /* Details Section End */
