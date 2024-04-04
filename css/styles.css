@@ -25,6 +25,7 @@ h1 {
 
 p {
     line-height: 2;
+    margin-bottom: 5px;
 }
 
 a {
@@ -128,6 +129,10 @@ ul {
     padding-top: 5px;
     width: 90%;
     text-align: center;
+}
+
+.title {
+    color: #2f6c8a
 }
 
 .skills {
