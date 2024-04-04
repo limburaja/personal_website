@@ -162,6 +162,13 @@ ul {
     text-align: center;
 }
 
+.ref_table {
+    font-size: 1em;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
 /* Details Section End */
 
 /* Footer */
