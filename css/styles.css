@@ -108,6 +108,9 @@ ul {
 }
 
     .details h2 {
+        width: 20%;
+       
+        font-family: 'Sacramento', cursive;
         color: #23607E;
     }
 
