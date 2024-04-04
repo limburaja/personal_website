@@ -140,7 +140,7 @@ ul {
     font-size: 1em;
     margin-right: auto;
     margin-left: auto;
-    text-align: center;
+    text-align: left;
 }
 
 .experience-title {
@@ -166,7 +166,7 @@ ul {
     font-size: 1em;
     margin-right: auto;
     margin-left: auto;
-    text-align: center;
+    text-align: left;
 }
 
 /* Details Section End */
@@ -178,10 +178,11 @@ ul {
     background-color: #CEE0DD;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    /*margin-top: 10px;*/
+    margin-top: 10px;
+    font-size: 1.3em;
 }
 
-.name {
+.footer:p {
     font-size: 1.5em;
 }
 
