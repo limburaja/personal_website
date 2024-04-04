@@ -25,7 +25,7 @@ h1 {
 
 p {
     line-height: 2;
-    margin-bottom: 5px;
+    margin: 5px 0;
 }
 
 a {
@@ -173,6 +173,8 @@ ul {
     margin-right: auto;
     margin-left: auto;
     text-align: left;
+    border-collapse: separate; /* This is important for proper spacing */
+    border-spacing: auto 5px; 
 }
 
 /* Details Section End */
