@@ -148,7 +148,8 @@ ul {
     margin-left: auto;
     text-align: left;
     border-collapse: separate; /* This is important for proper spacing */
-    border-spacing: 10px 15px; 
+    border-spacing: 10px 15px;
+    color: #23607E;
 }
 
 .experience-title {
@@ -177,6 +178,7 @@ ul {
     text-align: left;
     border-collapse: separate; /* This is important for proper spacing */
     border-spacing: 10px 15px; 
+    color: #23607E;
 }
 
 /* Details Section End */
