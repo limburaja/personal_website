@@ -193,6 +193,12 @@ ul {
     color: #23607E;
 }
 
+.ref_table td {
+    overflow-wrap: break-word; /* Allows breaking of long words */
+    word-wrap: break-word; /* Ensures long words break in older browsers */
+    max-width: 200px; /* You can adjust this width */
+}
+
 /* Details Section End */
 
 /* Footer */
