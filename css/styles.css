@@ -4,14 +4,25 @@ body {
     font-family: 'Merriweather', serif;
 }
 
+hr {
+    border-style: none;
+    border-top-style: inset;
+    border-width: 2px;
+    width: 30%;
+    margin: 0 auto;
+    border-color: #2f6c8a;
+    margin-bottom: 15px;
+}
+
 h1 {
     font-size: 3em;
+    margin: 0;
     text-align: center;
     font-family: 'Sacramento', cursive;
 }
 
 p {
-    line-height: 1.6;
+    line-height: 2;
     margin: 5px 0;
 }
 
@@ -27,19 +38,20 @@ ul {
     color: #626567;
     background-color: #f4f6f7;
     display: inline-block;
-    padding: 10px 15px;
-    margin: 5px;
+    position: relative;
+    z-index: 1;
+    transition: transform .2s;
+    border: none;
     border-radius: 10px;
-    transition: background-color 0.2s, transform 0.2s;
 }
 
 .link:hover {
+    color: #ffffff;
     background-color: rgb(33, 33, 189);
-    color: #fff;
     transform: scale(1.05);
 }
 
-/* Header Section */
+/* Header Section Start */
 .header {
     text-align: center;
     background-color: #CEE0DD;
@@ -55,44 +67,59 @@ ul {
     text-align: center;
 }
 
-.software {
-    text-decoration: underline;
-}
-
-.intro {
-    color: #23607E;
-    text-decoration: underline;
-}
-
-/* Details Section */
+/* Details Section Start */
 .details {
     background-color: #f4f6f7;
     padding: 15px;
-    text-align: center;
 }
 
 .details h2 {
-    color: #000;
+    color: #000000;
+    text-align: center;
 }
 
-.experience, .education, .skills, .reference, .socials {
+.experience,
+.education,
+.skills,
+.reference {
     margin: 0 auto;
     width: 90%;
-    text-align: left;
+    text-align: center;
 }
 
-.skills-table, .ref_table {
+.skills-table,
+.ref_table {
     width: 100%;
+    margin: auto;
     border-collapse: collapse;
-    margin: 10px auto;
 }
 
-.skills-table td, .ref_table td {
-    padding: 8px;
+.skills-table td,
+.ref_table td {
+    padding: 10px;
+}
+
+.experience-title {
+    text-decoration: underline;
+    font-size: 1.2em;
+    color: #23607E;
+}
+
+.location {
+    margin-left: 10px;
+    font-size: 1.3em;
+    color: #23607E;
 }
 
 /* Footer */
 .footer {
     color: #23607E;
     background-color: #CEE0DD;
-    text-align:
+    text-align: center;
+    font-size: 1.3em;
+    padding: 10px 0;
+}
+
+.name {
+    font-family: 'Sacramento', cursive;
+    font-size: 1.
