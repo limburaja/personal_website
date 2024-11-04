@@ -16,13 +16,13 @@ hr {
 
 h1 {
     font-size: 3em;
-    margin: 0;
+    margin: 0 auto;
     text-align: center;
     font-family: 'Sacramento', cursive;
 }
 
 p {
-    line-height: 1.5;
+    line-height: 2;
     margin: 5px 0;
 }
 
@@ -39,7 +39,7 @@ ul {
     background-color: #f4f6f7;
     display: inline-block;
     border-radius: 10px;
-    padding: 10px;
+    padding: 10px 15px; /* Adjusted padding for better touch targets */
     margin: 5px;
 }
 
@@ -68,20 +68,16 @@ ul {
 .details {
     background-color: #f4f6f7;
     padding: 15px;
-}
-
-.details h2 {
-    color: #000000;
-    text-align: center;
+    width: 90%; /* Made responsive */
+    margin: 0 auto; /* Centered */
 }
 
 .experience,
 .education,
 .skills,
 .reference {
-    margin: 0 auto;
-    width: 90%; /* Set to percentage for responsiveness */
     text-align: center;
+    margin: 20px 0;
 }
 
 /* Footer */
@@ -91,9 +87,6 @@ ul {
     text-align: center;
     font-size: 1.3em;
     padding: 10px 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
 }
 
 /* Responsive Styles */
@@ -103,12 +96,12 @@ ul {
     }
 
     .link {
-        padding: 5px 8px; /* Adjust link padding */
+        padding: 5px 10px; /* Adjust link padding for smaller screens */
         font-size: 0.9em; /* Adjust link font size */
     }
 
     .details {
-        padding: 10px; /* Adjust padding */
+        padding: 10px; /* Reduce padding */
     }
 
     .footer {
@@ -116,4 +109,12 @@ ul {
     }
 }
 
-/* Other media queries as needed... */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2em; /* Further adjust for very small screens */
+    }
+
+    .link {
+        font-size: 0.8em; /* Smaller font size for links */
+    }
+}
