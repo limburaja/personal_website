@@ -131,6 +131,16 @@ ul {
     text-align: center;
 }
 
+
+.education-table {
+    font-size: 1em;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    border-collapse: separate; /* This is important for proper spacing */
+    color: #23607E;
+}
+
 .title {
     color: #2f6c8a
 }
