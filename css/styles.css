@@ -16,9 +16,9 @@ hr {
 }
 
 h1 {
-    width: 20%;
     font-size: 3em;
     margin: 0 auto;
+    text-align: center;
     font-family: 'Sacramento', cursive;
 }
 
@@ -62,6 +62,7 @@ ul {
     text-align: center;
     background-color: #CEE0DD;
     padding: 10px;
+    max-width: 100%;
 }
 
 .cloud1 {
@@ -81,6 +82,8 @@ ul {
 
 .profile {
     text-align: center;
+    padding: 20px;
+    max-width: 100%
    
 }
 
@@ -106,6 +109,8 @@ ul {
 .details {
     background-color: #f4f6f7;
     padding: 15px;
+    margin: 0 auto;
+    max-width: 90%;
 }
 
     .details h2 {
@@ -117,14 +122,14 @@ ul {
     }
 
 .experience {
-    margin: 0px 0 0 60px;
+    margin: 0 auto;
     padding-top: 5px;
     width: 90%;
     text-align: center;
 }
 
 .education {
-    margin: 0px 0 0 60px;
+    margin: 0 auto;
     padding-top: 5px;
     width: 90%;
     text-align: center;
@@ -141,11 +146,11 @@ ul {
 }
 
 .title {
-    color: #2f6c8a
+    color: #2f6c8a;
 }
 
 .skills {
-    margin: 0px 0 0 60px;
+    margin: 0 auto;
     padding-top: 5px;
     width: 90%;
     text-align: center;
@@ -173,7 +178,7 @@ ul {
 }
 
 .reference {
-    margin: 0px 0 0 60px;
+    margin: 0 auto;
     padding-top: 5px;
     width: 90%;
     text-align: center;
@@ -199,6 +204,7 @@ ul {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     font-size: 1.3em;
+    padding: 10px 0;
 }
 
 .name {
@@ -226,11 +232,10 @@ ul {
     }
 
     .link {
-        bottom: 50px;
-        left: 70px;
-        margin: 0 15px;
-        padding: 5px 10px;
+        margin: 10px 15px; /* Changed to margin for better spacing */
+        padding: 8px 15px; /* Adjusted padding for a better button size */
     }
+
 
     .footer {
         padding: 20px 0;
@@ -257,10 +262,8 @@ ul {
     }
 
     .link {
-        bottom: 50px;
-        left: 70px;
-        margin: 0 15px;
-        padding: 5px 10px;
+        margin: 10px 15px; /* Changed to margin for better spacing */
+        padding: 8px 15px; /* Adjusted padding for a better button size */
     }
 
     .experience {
@@ -299,9 +302,9 @@ ul {
         padding: 5px 10px;
     }
 
-    .experience {
-        margin: 0px 20px 0 60px;
-        width: 90%;
+  .experience {
+        margin: 0 auto; /* Changed to auto for center alignment */
+        width: 80%; /* Adjusted width for better responsiveness */
     }
 
     .footer {
@@ -367,9 +370,9 @@ ul {
       margin-top: 15px;
     }
 
-    .experience {
-        margin: 0px 20px 0 20px;
-        width: 80%;
+   .experience {
+        margin: 0 auto; /* Changed to auto for center alignment */
+        width: 90%; /* Adjusted width for better responsiveness */
     }
 
     .footer {
@@ -380,6 +383,15 @@ ul {
 /* ##Device = Most of the Smartphones Mobiles (Portrait) ##Screen = B/w 320px to 479px */
 @media (min-width: 320px) and (max-width: 480px) {
     .header {
-        /*background-color: purple;*/
+        padding: 10px 0; /* Added padding for better spacing */
+    }
+
+    .experience {
+        margin: 0 auto; /* Centered margin for small screens */
+        width: 90%; /* Adjusted width for better responsiveness */
+    }
+
+    .footer {
+        padding: 10px 0; /* Added padding for better spacing */
     }
 }
