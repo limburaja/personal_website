@@ -36,8 +36,8 @@ ul {
 }
 
 .link {
-    color: #626567;
-    background-color: #000000;
+    color: #000000;
+    background-color: #626567;
     display: inline-block;
     position: relative;
     z-index: 1;
