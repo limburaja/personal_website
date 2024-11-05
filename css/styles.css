@@ -204,7 +204,7 @@ ul {
 /* Footer */
 
 .footer {
-    color: #23607E;
+    color: #ffffff;
     background-color: #003B5C;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
@@ -213,7 +213,7 @@ ul {
 }
 
 .name {
-    font-family: 'Sacramento', cursive;
+    font-family: 'Sacramento';
     font-size: 1.5em;
 }
 
