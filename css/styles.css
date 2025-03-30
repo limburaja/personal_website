@@ -68,8 +68,8 @@ ul {
 }
 
 .clouds {
-    width: auto;
-    max-height: 60px;
+    width: 20%;
+    max-height: 100px;
     position: relative;
 }
 
