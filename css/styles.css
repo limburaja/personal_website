@@ -70,11 +70,6 @@ ul {
     position: relative;
 }
 
-.cloud2 {
-    width: 10%;
-    position: relative;
-}
-
 .clouds {
     width: 20%;
     position: relative;
@@ -223,12 +218,8 @@ ul {
         /*background-color: black;*/
     }
 
-    .cloud2 {
-        top: 40px;
-    }
-
     .clouds {
-        top: 90px;
+        top: 40px;
     }
 
     .profile {
@@ -250,15 +241,11 @@ ul {
 /* ##Device = Laptops, Desktops ##Screen = B/w 1025px to 1280px */
 @media (min-width: 1025px) and (max-width: 1280px) {
     .header {
-        /*background-color: blue;*/
-    }
-
-    .cloud2 {
-        top: 40px;
+        background-color: #d3e5f1;
     }
 
     .clouds {
-        top: 90px;
+        margin: 10px;
     }
 
     .profile {
@@ -284,15 +271,11 @@ ul {
 /* ##Device = Tablets, Ipads (portrait) ##Screen = B/w 768px to 1024px */
 @media (min-width: 768px) and (max-width: 1024px) {
     .header {
-        /*background-color: red;*/
-    }
-
-    .cloud2 {
-        top: 40px;
+        background-color: #d3e5f1;
     }
 
     .clouds {
-        top: 90px;
+        margin: 40px;
     }
 
     .profile {
@@ -320,15 +303,11 @@ ul {
 /* ##Device = Tablets, Ipads (landscape) ##Screen = B/w 768px to 1024px */
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .header {
-        /*background-color: red;*/
-    }
-
-    .cloud2 {
-        top: 40px;
+        background-color: #d3e5f1;
     }
 
     .clouds {
-        top: 90px;
+        margin: 40px;
     }
 
     .profile {
@@ -357,7 +336,7 @@ ul {
 @media (min-width: 481px) and (max-width: 767px) {
     .header {
         padding: 0;
-        /*background-color: green;*/
+        background-color: #d3e5f1;
     }
 
     .link {
@@ -368,7 +347,7 @@ ul {
     }
 
     .clouds {
-        top: 20px;
+        margin: 20px;
     }
 
     .profile {
@@ -389,6 +368,7 @@ ul {
 @media (min-width: 320px) and (max-width: 480px) {
     .header {
         padding: 10px 0; /* Added padding for better spacing */
+        background-color: #d3e5f1;
     }
 
     .experience {
