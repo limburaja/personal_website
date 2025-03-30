@@ -63,6 +63,7 @@ ul {
     background-color: #d3e5f1;
     padding: 5px;
     max-width: 100%;
+    display: flex;
 }
 
 .clouds {
