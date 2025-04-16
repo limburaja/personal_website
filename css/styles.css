@@ -60,20 +60,21 @@ ul {
 
 .header {
     height: 100px;
-    text-align: center;
     background-color: #d3e5f1;
     padding: 5px;
     max-width: 100%;
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center;     /* Center vertically */
-    gap: 20px; /* Optional: spacing between elements */
+    justify-content: center;
+    align-items: center;
+    gap: 30px; /* More space between items */
+    flex-wrap: nowrap; /* Prevents wrapping to next line */
+    overflow: hidden;  /* Optional: avoids overflow issues */
 }
 
 
 .clouds {
     width: 150px;
-    max-height: 100px;
+    max-height: auto;
     position: relative;
 }
 
