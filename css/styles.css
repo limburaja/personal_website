@@ -60,24 +60,26 @@ ul {
 
 .header {
   background-color: #d3e5f1;
-  padding: 10px 20px; /* 10px top/bottom, 20px sides */
+  padding: 10px 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
+  height: 70px; /* Fixed header height */
+  overflow: visible; /* Allow image to overflow */
+  position: relative; /* Needed for absolute children (optional) */
 }
 
-.header * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 .clouds {
-  height: 150px; /* Image height — adjust this to control total header height */
-  width: auto;  /* Maintain aspect ratio */
+  height: 120px; /* Whatever big size you want */
+  width: auto;
   display: block;
+  position: relative; /* or absolute, depending on how much you want it to overflow */
+  margin-top: -20px; /* Adjust this to visually shift image upwards */
+  z-index: 1;
 }
+
 
 
 .logo-link {
