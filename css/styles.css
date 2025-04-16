@@ -60,8 +60,7 @@ ul {
 
 .header {
   background-color: #d3e5f1;
-  padding: 10px;
-  max-width: 100%;
+  padding: 10px 20px; /* 10px top/bottom, 20px sides */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -69,11 +68,11 @@ ul {
 }
 
 .clouds {
-  width: 200px;
-  height: auto;
-  display: block; /* prevents inline image spacing issues */
-  vertical-align: middle; /* just in case */
+  height: 60px; /* Image height — adjust this to control total header height */
+  width: auto;  /* Maintain aspect ratio */
+  display: block;
 }
+
 
 .logo-link {
   display: flex;
