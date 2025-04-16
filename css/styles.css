@@ -59,16 +59,20 @@ ul {
 /* Header Section Start */
 
 .header {
-    height =: 100px;
+    height: 100px;
     text-align: center;
     background-color: #d3e5f1;
     padding: 5px;
     max-width: 100%;
     display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    gap: 20px; /* Optional: spacing between elements */
 }
 
+
 .clouds {
-    width: 20%;
+    width: 100px;
     max-height: 100px;
     position: relative;
 }
