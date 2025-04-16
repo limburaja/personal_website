@@ -67,6 +67,12 @@ ul {
   gap: 30px;
 }
 
+.header * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .clouds {
   height: 60px; /* Image height — adjust this to control total header height */
   width: auto;  /* Maintain aspect ratio */
