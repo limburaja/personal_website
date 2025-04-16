@@ -59,20 +59,25 @@ ul {
 /* Header Section Start */
 
 .header {
-    /* Removed fixed height so image fits */
-    background-color: #d3e5f1;
-    padding: 10px;
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
+  background-color: #d3e5f1;
+  padding: 10px;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
 
 .clouds {
-    width: 200px;       /* Bigger logo */
-    height: auto;       /* Keeps natural proportion */
-    position: relative; /* Optional: remove if not using */
+  width: 200px;
+  height: auto;
+  display: block; /* prevents inline image spacing issues */
+  vertical-align: middle; /* just in case */
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
 }
 
 .profile {
