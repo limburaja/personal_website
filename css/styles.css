@@ -226,13 +226,22 @@ ul {
 
 /* ##Device = Desktops ##Screen = 1281px to higher resolution desktops */
 @media (min-width: 1281px) {
-    .header {
-        /*background-color: black;*/
-    }
+  .header {
+    /* background-color: black; */
+    height: 70px;
+    overflow: visible;
+    position: relative;
+  }
 
-    .clouds {
-        top: 40px;
-    }
+  .clouds {
+    height: 120px;
+    width: auto;
+    position: relative;
+    top: 40px;  /* Pushes it down */
+    z-index: 1;
+  }
+}
+
 
     .profile {
         margin-top: 50px;
@@ -252,143 +261,184 @@ ul {
 
 /* ##Device = Laptops, Desktops ##Screen = B/w 1025px to 1280px */
 @media (min-width: 1025px) and (max-width: 1280px) {
-    .header {
-        background-color: #d3e5f1;
-    }
+  .header {
+    background-color: #d3e5f1;
+    height: 70px;
+    overflow: visible;
+    position: relative;
+  }
 
-    .clouds {
-        margin: 10px;
-    }
+  .clouds {
+    height: 100px;
+    width: auto;
+    position: relative;
+    top: 30px;
+    z-index: 1;
+  }
 
-    .profile {
-        margin-top: 50px;
-        padding: 5px 0;
-    }
+  .profile {
+    margin-top: 50px;
+    padding: 5px 0;
+  }
 
-    .link {
-        margin: 10px 15px; /* Changed to margin for better spacing */
-        padding: 8px 15px; /* Adjusted padding for a better button size */
-    }
+  .link {
+    margin: 10px 15px;
+    padding: 8px 15px;
+  }
 
-    .experience {
-        margin: 0px 20px 0 60px;
-        width: 90%;
-    }
+  .experience {
+    margin: 0px 20px 0 60px;
+    width: 90%;
+  }
 
-    .footer {
-        padding: 20px 0;
-    }
+  .footer {
+    padding: 20px 0;
+  }
 }
 
 /* ##Device = Tablets, Ipads (portrait) ##Screen = B/w 768px to 1024px */
 @media (min-width: 768px) and (max-width: 1024px) {
-    .header {
-        background-color: #d3e5f1;
-    }
+  .header {
+    background-color: #d3e5f1;
+    height: 70px;
+    overflow: visible;
+    position: relative;
+  }
 
-    .clouds {
-        margin: 40px;
-    }
+  .clouds {
+    height: 80px;
+    width: auto;
+    position: relative;
+    top: 20px;
+    z-index: 1;
+  }
 
-    .profile {
-        margin-top: 50px;
-        padding: 5px 0;
-    }
+  .profile {
+    margin-top: 50px;
+    padding: 5px 0;
+  }
 
-    .link {
-        bottom: 50px;
-        left: 70px;
-        margin: 0 15px;
-        padding: 5px 10px;
-    }
+  .link {
+    position: relative;
+    margin: 0 15px;
+    padding: 5px 10px;
+    bottom: 50px;  /* You had this already – kept as-is */
+    left: 70px;
+  }
 
   .experience {
-        margin: 0 auto; /* Changed to auto for center alignment */
-        width: 80%; /* Adjusted width for better responsiveness */
-    }
+    margin: 0 auto;
+    width: 80%;
+  }
 
-    .footer {
-        padding: 20px 0;
-    }
+  .footer {
+    padding: 20px 0;
+  }
 }
 
 /* ##Device = Tablets, Ipads (landscape) ##Screen = B/w 768px to 1024px */
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    .header {
-        background-color: #d3e5f1;
-    }
+  .header {
+    background-color: #d3e5f1;
+    height: 70px;
+    overflow: visible;
+    position: relative;
+  }
 
-    .clouds {
-        margin: 40px;
-    }
+  .clouds {
+    height: 70px;
+    width: auto;
+    position: relative;
+    top: 15px;
+    z-index: 1;
+  }
 
-    .profile {
-        margin-top: 50px;
-        padding: 5px 0;
-    }
+  .profile {
+    margin-top: 50px;
+    padding: 5px 0;
+  }
 
-    .link {
-        bottom: 50px;
-        left: 70px;
-        margin: 0 15px;
-        padding: 5px 10px;
-    }
+  .link {
+    position: relative;
+    bottom: 50px;
+    left: 70px;
+    margin: 0 15px;
+    padding: 5px 10px;
+  }
 
-    .experience {
-        margin: 0px 20px 0 60px;
-        width: 90%;
-    }
+  .experience {
+    margin: 0px 20px 0 60px;
+    width: 90%;
+  }
 
-    .footer {
-        padding: 20px 0;
-    }
+  .footer {
+    padding: 20px 0;
+  }
 }
 
 /* ##Device = Low Resolution Tablets, Mobiles (Landscape) ##Screen = B/w 481px to 767px */
 @media (min-width: 481px) and (max-width: 767px) {
-    .header {
-        padding: 0;
-        background-color: #d3e5f1;
-    }
+  .header {
+    padding: 0;
+    background-color: #d3e5f1;
+    height: 60px;
+    overflow: visible;
+    position: relative;
+  }
 
-    .link {
-        position: static;
-        margin: 0 3px;
-        padding: 3px;
-        font-size: 0.9em;
-    }
+  .link {
+    position: static;
+    margin: 0 3px;
+    padding: 3px;
+    font-size: 0.9em;
+  }
 
-    .clouds {
-        margin: 20px;
-    }
+  .clouds {
+    height: 60px;
+    width: auto;
+    position: relative;
+    top: 10px;
+    z-index: 1;
+  }
 
-    .profile {
-      margin-top: 15px;
-    }
+  .profile {
+    margin-top: 15px;
+  }
 
-   .experience {
-        margin: 0 auto; /* Changed to auto for center alignment */
-        width: 90%; /* Adjusted width for better responsiveness */
-    }
+  .experience {
+    margin: 0 auto;
+    width: 90%;
+  }
 
-    .footer {
-        padding: 0;
-    }
+  .footer {
+    padding: 0;
+  }
 }
 
 /* ##Device = Most of the Smartphones Mobiles (Portrait) ##Screen = B/w 320px to 479px */
 @media (min-width: 320px) and (max-width: 480px) {
-    .header {
-        padding: 10px 0; /* Added padding for better spacing */
-        background-color: #d3e5f1;
-    }
+  .header {
+    padding: 10px 0;
+    background-color: #d3e5f1;
+    height: 60px;
+    overflow: visible;
+    position: relative;
+  }
 
-    .experience {
-        margin: 0 auto; /* Centered margin for small screens */
-        width: 90%; /* Adjusted width for better responsiveness */
-    }
+  .clouds {
+    height: 50px;
+    width: auto;
+    position: relative;
+    top: 10px;
+    z-index: 1;
+  }
 
-    .footer {
-        padding: 10px 0; /* Added padding for better spacing */
-    }
+  .experience {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .footer {
+    padding: 10px 0;
+  }
 }
