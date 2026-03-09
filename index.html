@@ -1,219 +1,115 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
-<title>Raja's Personal Site</title>
-<link rel="stylesheet" type="text/css" href="css/styles.css" />
-<link rel="icon" href="favicon.ico" />
-<link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Sacramento&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Raja Limbu | Senior IT Executive</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  
-<div class="header">
-  <a class="link" href="docs/Resume.pdf" target="_blank" rel="noopener noreferrer">Download My CV</a>
-  <a class="link" href="mailto:raja.limbu@gmail.com">Contact Me</a>
-  <!-- Add a dummy href to make anchor consistent or remove <a> if you don't need it clickable -->
-    <img src="images/it.svg" alt="clouds" class="clouds" />
-</div>
-  
-<div class="profile">
-<h1>Hello, I'm Raja.</h1>
-<p><em>currently employed as a<span class="software"> <strong>Senior Executive IT</strong></span> at CG Electronics.</em></p>
-<p>
-<em><strong><span class="intro">Curiosity-Driven Problem Solver:</span> I thrive at the intersection of technology and human needs.<br> 
-  Whether troubleshooting IT systems or crafting intuitive software, my work is fueled by a relentless curiosity to explore, 
-  innovate, and empower teams. <br> Let’s build solutions that matter.</strong></em>
-</p>
-</div>
-<br>
-<br>
-<div class="details">
-  <div class="experience">
-<h2>WORKING EXPERIENCE</h2>
-<br>
-<ul>
-<li>
-<h3><span class="experience-title">Assistant IT Officer - Grande Int'l Hospital</span><span class="location">| 2022 - March</span></h3> <strong><i>(Bridging Technology and Healthcare)</i></strong>
-<p>
-In my role at Grande International Hospital, I act as the go-to IT troubleshooter for staff members, ensuring seamless operations in a fast-paced healthcare environment. 
-  A typical day involves resolving technical inquiries—from fixing printer malfunctions and diagnosing network outages to untangling complex PACS/HIMS errors. 
-  By streamlining communication with vendors and refining troubleshooting protocols, I’ve reduced average resolution times, minimizing disruptions to patient care.
+    <nav class="navbar">
+        <div class="nav-container">
+            <span class="nav-logo">RL</span>
+            <div class="nav-links">
+                <a href="docs/Resume.pdf" target="_blank" class="btn-primary">Download CV</a>
+                <a href="mailto:raja.limbu@gmail.com" class="btn-secondary">Contact</a>
+            </div>
+        </div>
+    </nav>
 
-One of my key projects was supporting the integration of the Picture Archiving System (PACS), which decucted medical image retrieval time, allowing doctors to diagnose patients faster. 
-  I also collaborated on migrating the hospital’s HIMS and email servers to a cloud-based solution, a project that improved remote data accessibility while safeguarding sensitive patient 
-  information through encryption and multi-factor authentication.
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="glitch">Hello, I'm <span class="highlight">Raja.</span></h1>
+                <p class="hero-subtitle">Senior Executive IT at <span class="company">CG Electronics</span></p>
+                <div class="hero-description">
+                    <p><strong>Curiosity-Driven Problem Solver:</strong> I thrive at the intersection of technology and human needs. Whether troubleshooting IT systems or crafting intuitive software, my work is fueled by a relentless curiosity to explore, innovate, and empower teams.</p>
+                </div>
+            </div>
+            <div class="hero-visual">
+                 <img src="images/it.svg" alt="IT Illustration" class="main-illustration">
+            </div>
+        </div>
+    </header>
 
-Behind the scenes, I partner with cross-functional teams to evaluate and upgrade IT infrastructure, ensuring uptime for systems critical to clinical operations. 
-  Every day, I’m reminded that reliable technology isn’t just about servers and code—it’s about enabling healthcare professionals to focus on what matters most: their patients.
-</p>
-<br>
-<a href="https://grandehospital.com/" target="_blank" rel="noopener noreferrer">Grande International Hospital</a>
-</li>
-</ul>
-<br>
-<ul>
-<li>
-<h3><span class="experience-title">Freelance Developer</span><span class="location">| 2017 - 2019</span></h3> <strong><i>(Turning Ideas into Impactful Tools)</i></strong>
-<p>
-During my freelance tenure with KFA Business School, I designed and built a custom Sales Tracking System for Himalayan Bank and Shangri-La Development Bank. 
-  This PHP/MySQL platform automated manual data entry and provided real-time sales analytics, boosting team efficiency. 
-  Security was a top priority: I implemented role-based access controls and MD5 encryption to ensure compliance with strict data protection standards, 
-  earning praise from stakeholders for balancing usability with robust security.
+    <main class="container">
+        <section id="experience">
+            <h2 class="section-title">Working Experience</h2>
+            <div class="timeline">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Senior IT Executive — CG Digital Park</h3>
+                        <span class="date">2025 - Present</span>
+                    </div>
+                    <p class="tagline">Bridging Technology and Healthcare</p>
+                    <p>Provide IT support for 300+ users across 50+ nationwide branches. Led disaster recovery infrastructure setup, Active Directory configuration, and workspace relocation for four units.</p>
+                    <a href="https://www.chaudharygroup.com/cg-dp" target="_blank" class="external-link">Visit CG Digital →</a>
+                </div>
 
-To create a truly user-friendly experience, I interviewed users and stakeholders to identify pain points and redesigned the interface from the ground up. 
-  The new UI simplified report generation with dynamic filters (e.g., date ranges, bank branches), cutting task time. I also authored step-by-step
-  manuals and trained users, achieving about 95% adoption rate within two months, a testament to the system’s intuitive design.
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Assistant IT Officer — Grande Int'l Hospital</h3>
+                        <span class="date">2022 - 2025</span>
+                    </div>
+                    <p class="tagline">Streamlining Critical Infrastructure</p>
+                    <p>Optimized PACS/HIMS systems reducing medical image retrieval time. Managed cloud migration of hospital email servers, improving remote data accessibility and security.</p>
+                    <a href="https://grandehospital.com/" target="_blank" class="external-link">Visit Grande →</a>
+                </div>
 
-This project taught me that great software isn’t just functional — it’s empathetic. By listening to users and iterating on feedback, we built a tool that felt less like a system and more like a teammate.
-</p>
-<br>
-<a href="https://kfaltd.com/" target="_blank" rel="noopener noreferrer">KFA Business School</a>
-</li>
-</ul>
-</div>
-<br>
-<hr>
-<br>
-<br>
-<div class="education">
-<h2>EDUCATION</h2>
-<ul>
-<li>
-<p>
-  My academic journey began at Rhododendron International Boarding School, where I earned my SLC (School Leaving Certificate). 
-  Later, I pursued a B.Sc. in Business Computing & Information Systems from Softwarica College of IT (affiliated with the University of Central Lancashire, UK). 
-  Here, I honed my skills in software development, database management, and IT project workflows—foundations that continue to shape my problem-solving approach today.
-</p>
-</li>
-</ul>
-<ul>
-<li>
-<a href="https://softwarica.edu.np/"><strong class="title">Softwarica College of IT and E-commerce (University of Central Lancashire, England)</strong></a><br>
-<p><strong>Bachelors Degree: <u>Bsc. Hons in Business Computing and Information Systems</u></strong></p><br>
-  
-<a href="https://web.globalcollege.edu.np/"><strong class="title">Global College of Management</strong></a><br>
-<p><strong>High School Degree: <u>Computer Science</u></strong></p><br>
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Freelance Developer — KFA Business School</h3>
+                        <span class="date">2017 - 2019</span>
+                    </div>
+                    <p class="tagline">Turning Ideas into Impactful Tools</p>
+                    <p>Developed custom Sales Tracking Systems for Himalayan Bank. Implemented role-based security (MD5) and automated manual data entry using PHP/MySQL.</p>
+                    <a href="https://kfaltd.com/" class="external-link">Visit KFA →</a>
+                </div>
+            </div>
+        </section>
 
-<p><strong class="title">Rhododendron International Bording School (R.I.B.S)</strong><br>
-<p><strong>School Degree: <u>School Leaving Certificate (S.L.C)</u></strong></p><br>
-</li>
-</ul>
-</div>
-<hr>
-<br>
-<br>
-<div class="skills">
-<h2>SKILLS</h2><br>
-<strong> <u>Technical</u></strong>
-<br>
-<br>
-<table class="skills-table">
-<tr>
-<td><strong>C#/.NET</strong></td>
-<td width="5%">:</td>
-<td>⭐⭐</td>
-</tr>
-<tr>
-<td><strong>Java</strong></td>
-<td width="5%">:</td>
-<td>⭐⭐</td>
-</tr>
-<tr>
-<td><strong>HTML</strong></td>
-<td width="5%">:</td>
-<td>⭐⭐⭐</td>
-</tr>
-<tr>
-<td><strong>CSS</strong></td>
-<td width="5%">:</td>
-<td>⭐⭐⭐</td>
-</tr>
-<tr>
-<td><strong>JavaScript</strong></td>
-<td width="5%">:</td>
-<td>⭐⭐</td>
-</tr>
-<tr>
-<td><strong>Microsoft SQL Server</strong></td>
-<td width="5%">:</td>
-<td>⭐⭐⭐</td>
-</tr>
-<tr>
-<td><strong>Python</strong></td>
-<td width="5%">:</td>
-<td>⭐⭐⭐</td>
-</tr>
-<tr>
-<td><strong>JQuery</strong></td>
-<td width="5%">:</td>
-<td>⭐⭐</td>
-</tr>
-<td><strong>Desktop Troubleshooting & Support</strong></td>
-<td width="5%">:</td>
-<td>⭐⭐⭐⭐</td>
-</tr>
-</table><br><br>
-<strong><u>Human Centered (Soft Skills)</u></strong>
-<br>
-<br>
-<br>
-<table class="skills-table">
-<tr>
-<td><strong>Human-Centered Strengths</strong></td>
-<td width="5%">:</td>
-<td>⭐⭐⭐⭐</td>
-</tr>
-<tr>
-<td><strong>Collaborative problem-solving</strong></td>
-<td width="5%">:</td>
-<td>⭐⭐⭐⭐</td>
-</tr>
-<tr>
-<td><strong>Clear technical communication</strong></td>
-<td width="5%">:</td>
-<td>⭐⭐⭐⭐⭐</td>
-</tr>
-<tr>
-<td><strong>Adaptive learner <br> <u>Because curiosity never sleeps!</u></strong></td>
-<td width="5%">:</td>
-<td>⭐⭐⭐⭐⭐</td>
-</tr>
-</table>
-</div>
-<br>
-<hr>
-<br>
-<br>
-<div class="reference">
-<h2>REFERENCES</h2>
-<table class="ref_table">
-<tr>
-<td><strong>Available upon request</strong></td>
-</tr>
-</table>
-</div>
-<br>
-<br>
-<div class="reference">
-<h2>SOCIALS</h2>
-<table class="ref_table">
-<tr>
-<td></td>
-<td><strong>LinkedIn</strong></td>
-<td width="5%">:</td>
-<td width="63%"><strong><a href="https://www.linkedin.com/in/raja-limbu-b3791096/" target="_blank" rel="noopener noreferrer">Raja Limbu</a>
-</strong></td>
-</tr>
-</table>
-</div>
-</div>
-  
-<div class="footer">
-<p>
-<strong>Copyright © 2021 &nbsp; <span class="name">Raja Limbu</span>, &nbsp; All rights reserved.</strong>
-</p>
-</div>
+        <section id="skills">
+            <h2 class="section-title">Technical Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Core Development</h3>
+                    <div class="skill-bar"><span>Python / C#</span><div class="level" style="width: 75%"></div></div>
+                    <div class="skill-bar"><span>Web (HTML/CSS/JS)</span><div class="level" style="width: 85%"></div></div>
+                    <div class="skill-bar"><span>SQL Server</span><div class="level" style="width: 80%"></div></div>
+                </div>
+                <div class="skill-category">
+                    <h3>IT Operations</h3>
+                    <div class="skill-bar"><span>Infrastructure & Support</span><div class="level" style="width: 95%"></div></div>
+                    <div class="skill-bar"><span>Network Admin</span><div class="level" style="width: 85%"></div></div>
+                    <div class="skill-bar"><span>Cloud Management</span><div class="level" style="width: 70%"></div></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2 class="section-title">Education</h2>
+            <div class="edu-grid">
+                <div class="edu-item">
+                    <h4>B.Sc. Hons in Business Computing</h4>
+                    <p>Softwarica College of IT (University of Central Lancashire, UK)</p>
+                </div>
+                <div class="edu-item">
+                    <h4>Computer Science</h4>
+                    <p>Global College of Management</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Raja Limbu. <span class="dim">Built for Performance.</span></p>
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/raja-limbu-b3791096/" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
