@@ -9,6 +9,7 @@ font-family:'Inter',sans-serif;
 background:#0f172a;
 color:#e2e8f0;
 line-height:1.7;
+cursor:default;
 }
 
 /* NAVBAR */
@@ -43,7 +44,7 @@ display:flex;
 align-items:center;
 justify-content:space-between;
 padding:80px 10%;
-gap:50px;
+gap:60px;
 }
 
 .hero-content{
@@ -61,9 +62,12 @@ color:#38bdf8;
 margin-bottom:20px;
 }
 
-.hero p{
-margin-bottom:25px;
+.intro{
+font-size:17px;
+color:#cbd5f5;
 }
+
+/* IMAGE */
 
 .hero-img{
 width:350px;
@@ -91,7 +95,6 @@ color:#38bdf8;
 padding:10px 22px;
 border-radius:8px;
 text-decoration:none;
-margin-left:10px;
 }
 
 .btn-outline:hover{
@@ -99,7 +102,7 @@ background:#38bdf8;
 color:#020617;
 }
 
-/* SECTION */
+/* SECTIONS */
 
 .section{
 padding:80px 10%;
@@ -117,9 +120,15 @@ font-family:'Poppins';
 .card{
 background:#1e293b;
 padding:30px;
-margin-bottom:25px;
+margin-bottom:30px;
 border-radius:10px;
 text-align:left;
+transition:0.3s;
+cursor:default;
+}
+
+.card:hover{
+transform:translateY(-5px);
 }
 
 .card h3{
@@ -148,6 +157,7 @@ gap:20px;
 background:#1e293b;
 padding:15px;
 border-radius:8px;
+cursor:default;
 }
 
 /* SOCIAL */
